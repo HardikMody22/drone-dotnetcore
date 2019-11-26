@@ -9,6 +9,7 @@ steps:
   image: plugins/docker
   settings:
     username: hardik2205
-    password: 978206d7-6f16-4e76-9b90-7e9578990661
+    password: 
+      from_secret: my-dockerhub-password
     repo: hardik2205/dotnetcore-container
     dockerfile: Web/Dockerfile
